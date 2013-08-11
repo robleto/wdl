@@ -1,0 +1,72 @@
+body.custom-font-enabled {
+	font-family: georgia, "times new roman", serif;
+	color: #333;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.entry-content address, .comment-content address {
+	font-family: $serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: normal;
+}
+
+.entry-header .entry-title {
+	font-family: $slab-serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.entry-content h3, .comment-content h3 {
+	font-family: $slab-serif;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 6px;
+    margin-top: 28px;
+}
+
+.entry-content pre, .comment-content pre  {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.entry-content pre a, .comment-content pre a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: $sans-serif;
+    color: #333333;    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+    border-image: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-family: $sans-serif;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 20px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    width: 95%;
+}
+
+.entry-content pre a:hover, .comment-content pre a:hover {
+    background-image: linear-gradient(to bottom, #F5F5F5, #F5F5F5);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0) inset, 0 1px 2px rgba(0, 0, 0, 0.00);
+}
+
