@@ -1,0 +1,25 @@
+
+$slab-serif: "Habibi","Helvetica Neue","Helvetica","Arial",sans-serif;
+$serif: "Georgia","Times New Roman",serif;
+$sans-serif: "Open Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+
+
+// Media Queries
+$handheld-screen: emCalc(480px);
+$tablet-screen: emCalc(900px);
+
+$handheld: "only screen and (min-width:"#{$handheld-screen}")";
+$tablet: "only screen and (min-width:"#{$tablet-screen}")";
+
+
+
+
+
+
+@import "components/layout";
+@import "components/grid";
+@import "components/typography";
+@import "components/header";
+@import "components/footer";
+@import "components/home";

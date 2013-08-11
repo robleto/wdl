@@ -1,0 +1,75 @@
+//
+// HOME PAGE WIDGETS
+//
+//--------------------------------------------------
+// { Mobile First }
+
+h1.site-title {
+	text-indent: -9999px;
+	background: #ffffff url(../images/branding.png) top left no-repeat;
+	width: 245px;
+	height: 104px;
+	display: block;
+}
+h2.site-description {
+	display: none;
+}
+
+// Navigation Menu
+.menu-toggle {
+	display: block;
+	margin: 0px;
+}
+.menu-main-menu-container ul {
+	border: solid 1px #dddddd;
+	border-radius: 5px;
+	width: 100%;
+}
+.menu-main-menu-container ul li {
+	border-bottom: solid 1px #dddddd;
+	width: 100%;	
+	margin: 0px;
+}
+.menu-main-menu-container ul li a {
+	display: block;
+	margin: 0px;
+	padding: 8px 0px;
+}
+
+
+
+//
+// Responsive States - Desktop
+//--------------------------------------------------
+@media only screen and (min-width: 600px) {
+
+
+
+
+
+// Navigation Menu
+.menu-toggle {
+	display: none;
+}
+.menu-main-menu-container ul {
+	border: none;
+	border-radius: 0;
+	width: auto;
+}
+.menu-main-menu-container ul li {
+	border-bottom:  none;
+	width: auto;
+	margin: 0px;
+    margin: 0 2.5em 0 0;
+    font-size: 0.96rem;
+}
+.menu-main-menu-container ul li a {
+	display: block;
+	margin: 0px;
+	padding: 8px 0px;
+	font-family: $sans-serif;
+}
+
+
+
+}//end repsonsive min-480px
