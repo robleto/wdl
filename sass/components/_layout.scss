@@ -1,0 +1,37 @@
+//
+// HOME PAGE WIDGETS
+//
+//--------------------------------------------------
+// { Mobile First }
+
+
+body {
+	background: #e1e1e1 url(../images/bg-body.png) top left repeat-x;
+	font-family: $serif;
+	font-size: 120%;
+}
+
+#page {
+	margin-top: 0px;
+}
+
+.site-content article {
+    -moz-hyphens: auto;
+    border-bottom: none;
+    margin-bottom: 5.14286rem;
+    padding-bottom: 0em;
+    word-wrap: break-word;
+}
+
+
+
+
+//
+// Responsive States - Desktop
+//--------------------------------------------------
+@media only screen and (min-width: 600px) {
+
+
+
+
+}//end repsonsive min-480px
